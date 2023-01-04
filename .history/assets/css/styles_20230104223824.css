@@ -302,17 +302,7 @@ margin-top: 100px;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
- 
-}
-.home__social-links {
-  margin-top: 30px;
- 
-}
-.home__social-links a{
- color:var(--green);
-}
-.home__social-links a:hover{
-color:var(--black);
+  margin-top: 50p;
 }
 .home__social-follow{
   position:relative;
@@ -321,20 +311,14 @@ color:var(--black);
 .home__social-follow::before{
 content: '';
   position: absolute;
-  width: 30px;
+  width: 1rem;
   height: 2px;
   background-color: var(--green);
   right: -45%;
   top: 50%;
 }
 .home__social-follow::after{
-content: '';
-  position: absolute;
-  width: 30px;
-  height: 2px;
-  background-color: var(--green);
-  left: -45%;
-  bottom: 50%;
+
 }
 .home__social-links{
     transform: rotate(90deg);

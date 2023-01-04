@@ -304,15 +304,9 @@ margin-top: 100px;
   row-gap: 3.5rem;
  
 }
-.home__social-links {
+.home__social-links{
   margin-top: 30px;
- 
-}
-.home__social-links a{
- color:var(--green);
-}
-.home__social-links a:hover{
-color:var(--black);
+  color:var
 }
 .home__social-follow{
   position:relative;
