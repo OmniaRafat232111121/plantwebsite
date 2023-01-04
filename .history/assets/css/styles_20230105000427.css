@@ -390,19 +390,7 @@ grid-gap:20px;
 color: var(--bold-green);
 
 }
-@media(max-width:767px){
-  .right-about.about-title h2{
-    font-size: 10px;
-    
-  }
-  .right-about{
-    font-size: 16px;
-    
-  }
-  .about-container{
-    margin-top: 30px;
-  }
-}
+@media(max-width:767px)
 /*=======change-header========*/
 .change-header{
   background-color: #3e655e;
@@ -413,7 +401,4 @@ color: var(--bold-green);
 }
 .change-header .nav_logo:hover{
   color:var(--bold-green);
-}
-.change-header .nav_link:hover{
-  color:#fff;
 }

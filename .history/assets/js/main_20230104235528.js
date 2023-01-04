@@ -9,7 +9,7 @@ navToggle.addEventListener('click', function () {
 
     
 })
-/*change background header*/
+/*change
 window.addEventListener('scroll', function () {
-   header.classList.toggle("change-header",window.scrollY > 40)
+    header.classList.toggle("sticky",window.scrollY > 0)
 })

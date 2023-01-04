@@ -395,12 +395,8 @@ color: var(--bold-green);
     font-size: 10px;
     
   }
-  .right-about{
-    font-size: 16px;
+  .left-about{
     
-  }
-  .about-container{
-    margin-top: 30px;
   }
 }
 /*=======change-header========*/

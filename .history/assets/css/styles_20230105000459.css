@@ -391,16 +391,8 @@ color: var(--bold-green);
 
 }
 @media(max-width:767px){
-  .right-about.about-title h2{
+  .about-title{
     font-size: 10px;
-    
-  }
-  .right-about{
-    font-size: 16px;
-    
-  }
-  .about-container{
-    margin-top: 30px;
   }
 }
 /*=======change-header========*/
@@ -413,7 +405,4 @@ color: var(--bold-green);
 }
 .change-header .nav_logo:hover{
   color:var(--bold-green);
-}
-.change-header .nav_link:hover{
-  color:#fff;
 }

@@ -395,13 +395,6 @@ color: var(--bold-green);
     font-size: 10px;
     
   }
-  .right-about{
-    font-size: 16px;
-    
-  }
-  .about-container{
-    margin-top: 30px;
-  }
 }
 /*=======change-header========*/
 .change-header{
@@ -415,5 +408,5 @@ color: var(--bold-green);
   color:var(--bold-green);
 }
 .change-header .nav_link:hover{
-  color:#fff;
+  color:var(--gre)
 }
