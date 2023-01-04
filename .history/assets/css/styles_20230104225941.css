@@ -341,7 +341,7 @@ content: '';
 }
 .left-content a:hover{
   background-color:#032922;
-  color: #fff;
+  background-color: #fff;
   cursor: pointer;
 
 }

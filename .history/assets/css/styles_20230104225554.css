@@ -257,7 +257,7 @@ display: none;
 
 /*=====home======*/
 .home{
-  padding: 0 80px;
+  padding: 150px;
   position:relative;
  
 }
@@ -265,7 +265,7 @@ display: none;
 display:grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 grid-gap:30px;
-margin-top: 70px;
+margin-top: 50px;
 
 }
 .home-container .left-content{
@@ -338,10 +338,4 @@ content: '';
 }
 .home__social-links{
     transform: rotate(90deg);
-}
-.left-content a:hover{
-  background-color:#032922;
-  color: #fff;
-  cursor: pointer;
-
 }

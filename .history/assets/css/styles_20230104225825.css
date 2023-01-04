@@ -339,9 +339,8 @@ content: '';
 .home__social-links{
     transform: rotate(90deg);
 }
-.left-content a:hover{
-  background-color:#032922;
-  color: #fff;
-  cursor: pointer;
+.left-content :hover{
+  color:var(--green);
+  background-color: var(--black);
 
 }
