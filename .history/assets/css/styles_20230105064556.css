@@ -570,12 +570,12 @@ margin-bottom: 30px;
 }
 @media(max-width:767px){
   .product__circle{
-  width: 90px;
+  width: 100px;
   height: 90px;
   background-color: #e6efeb;
   border-radius: 50%;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 20%;
 }
 }
