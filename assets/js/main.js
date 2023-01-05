@@ -25,3 +25,20 @@ btns.forEach(function (btn) {
     question.classList.toggle("show-text");
   });
 });
+/*scroll reveal*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true
+})
+
+sr.reveal(`.home-container`)
+sr.reveal(`.right-content img`, { delay: 500 });
+sr.reveal(`.left-about`, { delay: 500 });
+sr.reveal(`.right-about`, { delay: 900 });
+sr.reveal(`.about-boxes .box , .left-contact `, { delay: 500 })
+sr.reveal(` .right-contact `, {delay: 900})
+sr.reveal(`.social-icons`, {delay: 600})
+sr.reveal(` .products-boxes .box , .question, .footer`,{interval: 100})
