@@ -162,20 +162,18 @@ nav ul li a{
 .nav-btns .ri-menu-line{
   display:none;
 }
-.nav-btns .ri-menu-line{
-    position: absolute;
-  top:20px;
-color:#000;
-  right:30px; 
-}
 .nav-btns .ri-moon-line{
    position: absolute;
   top:30px;
 color:#000;
-  right:30px; 
+  right:10px; 
 }
 
+.nav-btns{
+display: inline-flex;
+align-items: center;
 
+}
 .nav-close 
 {
   font-size: 1.5rem;
@@ -237,7 +235,6 @@ text-align: center;
 padding: 10px;
   }
 
-
 .nav-btns .ri-menu-line,
 .nav-btns .ri-moon-line{
   display:block;
@@ -247,13 +244,11 @@ padding: 10px;
 
 .nav-btns .ri-moon-line{
    position: absolute;
-  top:22px;
-  right:70px; 
+  top:27px;
+  right:130px; 
 
   
 }
-
-
 }
 
 /*========Home========*/
