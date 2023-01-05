@@ -455,12 +455,10 @@ background-color: #fff;
   color:#fff;
   margin-bottom: 40px;
   border-radius: 10px;
-  cursor: pointer;
    
 }
-.about-boxes:hover .box span{
-  transform: translateY(-30px);
-
+.about-boxes .box span:hover{
+  transform: translateY(-.25rem);
 }
 .about-boxes .box h3{
   margin-top: 30px;

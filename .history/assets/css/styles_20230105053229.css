@@ -458,9 +458,9 @@ background-color: #fff;
   cursor: pointer;
    
 }
-.about-boxes:hover .box span{
+.about-boxes:hover .box span:hover{
   transform: translateY(-30px);
-
+  color:yellow;
 }
 .about-boxes .box h3{
   margin-top: 30px;

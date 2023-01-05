@@ -460,7 +460,7 @@ background-color: #fff;
 }
 .about-boxes:hover .box span{
   transform: translateY(-30px);
-
+  color:yellow;
 }
 .about-boxes .box h3{
   margin-top: 30px;
