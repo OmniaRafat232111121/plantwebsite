@@ -350,7 +350,7 @@ content: '';
 .social_icons{
   position: absolute;
   top: 220px;
-  right: 10px;
+  right: 70px;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;

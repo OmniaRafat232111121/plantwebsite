@@ -346,16 +346,8 @@ content: '';
   cursor: pointer;
 
 }
-@media(max-width:767px){
-.social_icons{
-  position: absolute;
-  top: 220px;
-  right: 10px;
-  display: grid;
-  justify-items: center;
-  row-gap: 3.5rem;
- 
-}
+@media(ax-width:767px){
+  
 }
 /*======about=======*/
 .about{
