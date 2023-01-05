@@ -170,8 +170,8 @@ nav ul li a{
   font-size: 20px;
 
 }
-mood i{
-
+.mood i{
+color:#000;
 }
 
 .nav-close 
@@ -215,7 +215,13 @@ display: none;
 .nav_logo{
   margin-left: -10px;
 }
-
+/* .mood i::before{
+color:#000;
+} */
+.ri-moon-line:before {
+    content: "\ef75";
+    color:var(--black);
+}
 .nav-btns{
   display:inline-flex;
   align-items: center;
@@ -248,7 +254,9 @@ display: none;
   .show-menu {
     
   }
-  
+  .show-menu .mood .ri-moon-line{
+    display: none;
+  }
   
   
   

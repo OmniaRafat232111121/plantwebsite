@@ -439,9 +439,13 @@ to stay update</h4>
   </section>
   <!--footer-end-->
   <!--scrollup-->
-     <a href="#" class="scrollup" id="scroll-up"> 
-            <i class="ri-arrow-up-fill scrollup__icon"></i>
-        </a>
+     function scrollUp(){
+    const scrollUp = document.getElementById('scroll-up');
+    // When the scroll is higher than 400 viewport height, add the show-scroll class to the a tag with the scroll-top class
+    if(this.scrollY >= 400) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
+
  <!--scroll reveal-->
 <script src="assets/js/scrollreveal.min.js"></script>
   <!--contact end-->

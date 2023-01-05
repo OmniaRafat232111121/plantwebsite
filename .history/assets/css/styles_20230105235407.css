@@ -170,9 +170,6 @@ nav ul li a{
   font-size: 20px;
 
 }
-mood i{
-
-}
 
 .nav-close 
 {
@@ -248,7 +245,9 @@ display: none;
   .show-menu {
     
   }
-  
+  .show-menu .mood .ri-moon-line{
+    display: none;
+  }
   
   
   
@@ -855,12 +854,8 @@ margin-top: 40px;
 
 }
 
-.dark-theme .section-question .question,
-.dark-theme .footer,
-.dark-theme .header,
-.dark-theme .home,
-.dark-theme .box .product__circle
- {
+.dark-theme .section-question,
+.dark-theme .footer {
    background-color:#1c211f;
 } 
 .dark-theme .footer span,

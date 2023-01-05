@@ -170,9 +170,6 @@ nav ul li a{
   font-size: 20px;
 
 }
-mood i{
-
-}
 
 .nav-close 
 {
@@ -248,7 +245,9 @@ display: none;
   .show-menu {
     
   }
-  
+  .show-menu .mood .ri-moon-line{
+    display: none;
+  }
   
   
   
@@ -807,7 +806,7 @@ margin-top: 40px;
   display: inline-flex;
   padding: .5rem;
   border-radius: .25rem;
-  z-index: 10;
+  z-index: var(--z-tooltip);
   opacity: .8;
   transition: .4s;
 }
@@ -827,47 +826,3 @@ margin-top: 40px;
   bottom: 3rem;
 }
 
-
-
-.change-theme{
-  color:#fff;
-  font-size: 1.15rem;
-  cursor: pointer;
-}
-
-.nav__btns{
-  display: inline-flex;
-  align-items: center;
-  column-gap: 1rem;
-}
-
-/*==========Color in dark theme ==========*/
-
-
-.dark-theme .about-container{
-  background-color:#1c211f;
-  padding:30px;
-  border-radius: 10px;
-  
-}
-.dark-theme .steps-container{
-   background-color:#1c211f;
-
-}
-
-.dark-theme .section-question .question,
-.dark-theme .footer,
-.dark-theme .header,
-.dark-theme .home,
-.dark-theme .box .product__circle
- {
-   background-color:#1c211f;
-} 
-.dark-theme .footer span,
-.dark-theme .footer h4{
-  color:#fff;
-}
-
-.dark-theme .scroll-header{
-  box-shadow: gray;
-}

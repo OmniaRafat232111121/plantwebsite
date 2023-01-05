@@ -170,7 +170,7 @@ nav ul li a{
   font-size: 20px;
 
 }
-mood i{
+.mood i{
 
 }
 
@@ -248,7 +248,9 @@ display: none;
   .show-menu {
     
   }
-  
+  .show-menu .mood .ri-moon-line{
+    display: none;
+  }
   
   
   

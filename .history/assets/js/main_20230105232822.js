@@ -28,7 +28,6 @@ btns.forEach(function (btn) {
 
 /*scroll up*/
 const scrollUp = document.getElementById('scroll-up');
-
 window.addEventListener('scroll', function () {
   scrollUp.classList.toggle("show-scroll",window.scrollY >= 400)
 })
@@ -38,8 +37,7 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2500,
-    delay: 400,
-    // reset: true
+    delay: 400
 })
 
 sr.reveal(`.home-container`)
@@ -50,6 +48,7 @@ sr.reveal(`.about-boxes .box , .left-contact `, { delay: 500 })
 sr.reveal(` .right-contact `, {delay: 900})
 sr.reveal(`.social-icons`, {delay: 600})
 sr.reveal(` .products-boxes .box , .question, .footer`,{interval: 100})
+
 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'

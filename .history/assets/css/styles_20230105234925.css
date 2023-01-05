@@ -170,9 +170,6 @@ nav ul li a{
   font-size: 20px;
 
 }
-mood i{
-
-}
 
 .nav-close 
 {
@@ -248,7 +245,9 @@ display: none;
   .show-menu {
     
   }
-  
+  .show-menu .mood .ri-moon-line{
+    display: none;
+  }
   
   
   
@@ -843,30 +842,16 @@ margin-top: 40px;
 
 /*==========Color in dark theme ==========*/
 
-
+.dark-theme .steps-container,
 .dark-theme .about-container{
-  background-color:#1c211f;
-  padding:30px;
-  border-radius: 10px;
+  background-color:var(--bold-green)
   
 }
-.dark-theme .steps-container{
-   background-color:#1c211f;
-
-}
-
-.dark-theme .section-question .question,
-.dark-theme .footer,
-.dark-theme .header,
-.dark-theme .home,
-.dark-theme .box .product__circle
- {
-   background-color:#1c211f;
-} 
-.dark-theme .footer span,
-.dark-theme .footer h4{
-  color:#fff;
-}
+/* 
+.dark-theme .product__circle,
+.dark-theme .footer__subscribe{
+  background-color: var(--container-color);
+} */
 
 .dark-theme .scroll-header{
   box-shadow: gray;
