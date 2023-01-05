@@ -496,17 +496,14 @@ background-color: #fff;
  
 .steps-container{
   width:100%;
-  text-align: center;
-  display: grid;
-  place-content: center;
- padding:20px;
+ padding:50px;
   background-color: #3e6553;
   border-radius: 15px;
   height:1100px;
 }
 .about-boxes{
   display:grid;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-gap:20px;
 margin-top: 40px;
 
@@ -652,11 +649,6 @@ column-gap:10px;
   .question{
     width:100%;
     text-align: center;
-    
-  }
-  .section-question{
-  
-
   }
 }
 /*=============== Contact ===============*/

@@ -493,13 +493,12 @@ background-color: #fff;
 }
 
 @media(max-width:767px){
- 
+ .steps{
+  width:100%;
+ }
 .steps-container{
   width:100%;
-  text-align: center;
-  display: grid;
-  place-content: center;
- padding:20px;
+ padding:50px;
   background-color: #3e6553;
   border-radius: 15px;
   height:1100px;
@@ -652,11 +651,6 @@ column-gap:10px;
   .question{
     width:100%;
     text-align: center;
-    
-  }
-  .section-question{
-  
-
   }
 }
 /*=============== Contact ===============*/

@@ -498,7 +498,7 @@ background-color: #fff;
   width:100%;
   text-align: center;
   display: grid;
-  place-content: center;
+  place-content: ;
  padding:20px;
   background-color: #3e6553;
   border-radius: 15px;
@@ -652,11 +652,6 @@ column-gap:10px;
   .question{
     width:100%;
     text-align: center;
-    
-  }
-  .section-question{
-  
-
   }
 }
 /*=============== Contact ===============*/

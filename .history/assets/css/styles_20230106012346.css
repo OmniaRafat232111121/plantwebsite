@@ -652,10 +652,12 @@ column-gap:10px;
   .question{
     width:100%;
     text-align: center;
-    
   }
   .section-question{
-  
+    display:grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-gap:10px;
+margin-top: 40px;
 
   }
 }
