@@ -251,7 +251,7 @@ padding: 10px;
     position: absolute;
   top:20px;
 color:#000;
-  right:100px; 
+  right:0px; 
 }
 
 
@@ -602,7 +602,7 @@ column-gap:10px;
   justify-content: space-between;
   align-items: center;
   text-transform: capitalize;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
 }
 .question .title h2{
    color: #032922;
@@ -657,7 +657,23 @@ column-gap:10px;
   display: none;
 }
 @media(max-width:767px){
+  .question{
+    width:100%;
+   
+    margin:0 auto;
+    
+  
+  
+   
+   
 
+  
+
+  }
+  .section-question{
+    width:80%;
+   
+  }
 }
 /*=============== Contact ===============*/
 .contact{

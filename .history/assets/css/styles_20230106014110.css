@@ -657,7 +657,15 @@ column-gap:10px;
   display: none;
 }
 @media(max-width:767px){
-
+  .question{
+    width:80%;
+    margin:0 50px;
+    padding:30px;
+  }
+  .section-question{
+    width:100%;
+  
+  }
 }
 /*=============== Contact ===============*/
 .contact{
