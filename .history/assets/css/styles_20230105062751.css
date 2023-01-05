@@ -523,22 +523,16 @@ margin-bottom: 30px;
 }
  .products-boxes .box img{
   max-width: 100%;
-   position: relative;
+    position: absolute;
   width: 70%;
   justify-self: center;
   transition: .3s;
-}
-
-.products-boxes.box{
-  position:relative;
-
 }
 .box div{
   display:inline-flex;
   align-items: center;
   column-gap: 80px;
   margin-top: 20px;
-  position: relative;
 }
 .box .product_Button{
   background-color:#3e6553;
@@ -548,11 +542,11 @@ margin-bottom: 30px;
   font-size: 15px;
 }
 .product__circle{
-  width: 100px;
+  width: 90px;
   height: 90px;
-  background-color: #e6efeb;
+  background-color: #6d9381;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   top: 30%;
   left: 20%;
 }

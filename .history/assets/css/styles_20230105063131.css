@@ -538,7 +538,7 @@ margin-bottom: 30px;
   align-items: center;
   column-gap: 80px;
   margin-top: 20px;
-  position: relative;
+  p
 }
 .box .product_Button{
   background-color:#3e6553;
@@ -550,7 +550,7 @@ margin-bottom: 30px;
 .product__circle{
   width: 100px;
   height: 90px;
-  background-color: #e6efeb;
+  background-color: #99d4b9;
   border-radius: 50%;
   position: absolute;
   top: 30%;

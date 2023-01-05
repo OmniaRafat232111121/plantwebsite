@@ -538,7 +538,6 @@ margin-bottom: 30px;
   align-items: center;
   column-gap: 80px;
   margin-top: 20px;
-  position: relative;
 }
 .box .product_Button{
   background-color:#3e6553;
@@ -548,9 +547,9 @@ margin-bottom: 30px;
   font-size: 15px;
 }
 .product__circle{
-  width: 100px;
+  width: 0px;
   height: 90px;
-  background-color: #e6efeb;
+  background-color: #6d9381;
   border-radius: 50%;
   position: absolute;
   top: 30%;
