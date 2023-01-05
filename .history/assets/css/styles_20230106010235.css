@@ -239,10 +239,8 @@ padding: 10px;
   display:block;
   color:#000;
 }
-
-.ri-menu-line:before {
-    content: "\ef3e";
-    margin-right: -30px;
+.nav-btns .ri-menu-line{
+  margin-left:0px;
 }
 .nav-btns .ri-moon-line{
    position: absolute;

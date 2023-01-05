@@ -242,7 +242,7 @@ padding: 10px;
 
 .ri-menu-line:before {
     content: "\ef3e";
-    margin-right: -30px;
+    margin-right: 40px;
 }
 .nav-btns .ri-moon-line{
    position: absolute;
