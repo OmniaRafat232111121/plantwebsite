@@ -418,10 +418,12 @@ color: var(--bold-green);
 .change-header .nav_link:hover{
   color:#fff;
 }
-/*========Steps========*/
+/*======steps=======*/
+
 .steps{
   position:relative;
   padding:60px;
+  
 }
 .steps-container{
   width:100%;
@@ -480,7 +482,9 @@ background-color: #fff;
 .about-boxes .box h3{
   margin-top: 30px;
 }
-
+/* .about-boxes .box:last-child{
+  margin-right: 10px;
+} */
 @media(max-width:767px){
  
 .steps-container{

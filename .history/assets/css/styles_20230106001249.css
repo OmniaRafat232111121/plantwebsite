@@ -92,7 +92,7 @@ img{
   max-width: 100%;
   height: auto;
 }
-/*========== Scrollbar ==========*/
+/*========== resuable component ==========*/
 
 ::-webkit-scrollbar {
   width: 7px;
@@ -113,6 +113,7 @@ img{
   background: linear-gradient(270deg, #032922, #3d4a59);
 }
  
+
 /*========Header========*/
  header{
   background-color: #fff;
@@ -129,6 +130,9 @@ img{
   justify-content: space-between;
   height:var(--header-height);
   padding:40px;
+}
+.nav_menu{
+
 }
 .nav_logo{
   text-transform: uppercase;
@@ -155,29 +159,37 @@ nav ul li {
 }
 nav ul li a{
   color:var(--black);
+  
+  
 }
-.nav-btns .ri-menu-line{
-  display:none;
+.nav-btns .nav-toggle{
+  
 }
-.nav-btns .ri-moon-line{
-   position: absolute;
-  top:30px;
-color:#000;
-  right:10px; 
+.nav-btns .ri-menu-line,
+.nav-btns .ri-menu-line{{
+  color:green;
 }
 
 .mood{
   margin-left: 40px;
   font-size: 20px;
+
 }
+mood i{
+
+}
+
 .nav-close 
 {
+
   font-size: 1.5rem;
   position: relative;
   top: 70px;
   right: 1.25rem;
   cursor: pointer;
   display: none;
+ 
+
 }
 
 .nav-btns{
@@ -208,6 +220,7 @@ display: none;
 .nav_logo{
   margin-left: -10px;
 }
+
 .nav-btns{
   display:inline-flex;
   align-items: center;
@@ -216,36 +229,38 @@ display: none;
   margin-right: -10px;
   cursor: pointer;
 }
-.show-menu{
-position: fixed;
-background-color:#fff;
-width: 100%;
-height: 50%;
-top: 80px;
-right: 0px;
-transition: .3s;
-z-index: 1000;
-display:grid;
-justify-content: center;
-text-align: center;
-padding: 10px;
-  }
 
-.nav-btns .ri-menu-line,
-.nav-btns .ri-moon-line{
-  display:block;
-  color:#000;
-}
-.nav-btns .ri-moon-line{
-   position: absolute;
-  top:27px;
-  right:5px; 
-
+  .show-menu{
   
-}
+     position: fixed;
+    background-color:#fff;
+    width: 100%;
+    height: 50%;
+    top: 80px;
+    right: 0px;
+    transition: .3s;
+    z-index: 1000;
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    
+ padding: 10px;
+  
+  
+
+    
+  }
+  .show-menu {
+    
+  }
+  
+  
+  
+  
+
 }
 
-/*========Home========*/
+/*=====home======*/
 .home{
   padding: 0 80px;
   position:relative;
@@ -346,7 +361,7 @@ content: '';
  
 }
 }
-/*========About========*/
+/*======about=======*/
 .about{
   position: relative;
   padding:60px 100px;
@@ -418,10 +433,12 @@ color: var(--bold-green);
 .change-header .nav_link:hover{
   color:#fff;
 }
-/*========Steps========*/
+/*======steps=======*/
+
 .steps{
   position:relative;
   padding:60px;
+  
 }
 .steps-container{
   width:100%;
@@ -480,7 +497,9 @@ background-color: #fff;
 .about-boxes .box h3{
   margin-top: 30px;
 }
-
+/* .about-boxes .box:last-child{
+  margin-right: 10px;
+} */
 @media(max-width:767px){
  
 .steps-container{
@@ -856,7 +875,4 @@ margin-top: 40px;
 
 .dark-theme .scroll-header{
   box-shadow: gray;
-}
-.dark-theme .ri-moon-line{
-color:#000;
 }

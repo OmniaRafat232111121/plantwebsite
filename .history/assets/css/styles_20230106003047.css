@@ -92,7 +92,7 @@ img{
   max-width: 100%;
   height: auto;
 }
-/*========== Scrollbar ==========*/
+/*========== resuable component ==========*/
 
 ::-webkit-scrollbar {
   width: 7px;
@@ -113,6 +113,7 @@ img{
   background: linear-gradient(270deg, #032922, #3d4a59);
 }
  
+
 /*========Header========*/
  header{
   background-color: #fff;
@@ -129,6 +130,9 @@ img{
   justify-content: space-between;
   height:var(--header-height);
   padding:40px;
+}
+.nav_menu{
+
 }
 .nav_logo{
   text-transform: uppercase;
@@ -155,6 +159,8 @@ nav ul li {
 }
 nav ul li a{
   color:var(--black);
+  
+  
 }
 .nav-btns .ri-menu-line{
   display:none;
@@ -164,14 +170,18 @@ nav ul li a{
   top:30px;
 color:#000;
   right:10px; 
+
+  
 }
 
 .mood{
   margin-left: 40px;
   font-size: 20px;
+
 }
 .nav-close 
 {
+
   font-size: 1.5rem;
   position: relative;
   top: 70px;
@@ -245,7 +255,7 @@ padding: 10px;
 }
 }
 
-/*========Home========*/
+/*=====home======*/
 .home{
   padding: 0 80px;
   position:relative;
@@ -346,7 +356,7 @@ content: '';
  
 }
 }
-/*========About========*/
+/*======about=======*/
 .about{
   position: relative;
   padding:60px 100px;
@@ -418,10 +428,12 @@ color: var(--bold-green);
 .change-header .nav_link:hover{
   color:#fff;
 }
-/*========Steps========*/
+/*======steps=======*/
+
 .steps{
   position:relative;
   padding:60px;
+  
 }
 .steps-container{
   width:100%;
@@ -480,7 +492,9 @@ background-color: #fff;
 .about-boxes .box h3{
   margin-top: 30px;
 }
-
+/* .about-boxes .box:last-child{
+  margin-right: 10px;
+} */
 @media(max-width:767px){
  
 .steps-container{

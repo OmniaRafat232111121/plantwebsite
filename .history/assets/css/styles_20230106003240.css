@@ -480,7 +480,7 @@ background-color: #fff;
 .about-boxes .box h3{
   margin-top: 30px;
 }
-
+=
 @media(max-width:767px){
  
 .steps-container{
