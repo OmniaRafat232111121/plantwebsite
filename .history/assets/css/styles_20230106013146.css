@@ -658,8 +658,8 @@ column-gap:10px;
 @media(max-width:767px){
   .question{
     width:100%;
-   
-    margin-left: 50px;
+    text-align: center;
+    margin-left: 40px;
     
   
   
@@ -670,7 +670,7 @@ column-gap:10px;
 
   }
   .section-question{
-    width:80%;
+    width:90%;
   }
 }
 /*=============== Contact ===============*/
