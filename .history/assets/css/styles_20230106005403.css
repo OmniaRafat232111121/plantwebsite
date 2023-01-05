@@ -153,10 +153,8 @@ nav ul li {
   cursor: pointer;
   margin-left: 40px;
 }
-nav{
-margin-right: 60px;
-}
-nav ul li a{
+nav 
+ul li a{
   color:var(--black);
 }
 .nav-btns .ri-menu-line{
@@ -242,7 +240,7 @@ padding: 10px;
 .nav-btns .ri-moon-line{
    position: absolute;
   top:27px;
-  right:50px; 
+  right:5px; 
 
   
 }
