@@ -52,7 +52,7 @@ sr.reveal(`.social-icons`, {delay: 600})
 sr.reveal(` .products-boxes .box , .question, .footer`,{interval: 100})
 
 const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme';
+const darkTheme = 'dark-theme'
 const iconTheme = 'ri-sun-line';
 
 // Previously selected topic (if user selected)
