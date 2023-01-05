@@ -567,7 +567,6 @@ margin-top: 40px;
   left: 20%;
 }
 /*==========question========*/
-
 .question {
   background: #e6efeb;
   border-radius: 10px;
@@ -587,6 +586,7 @@ margin-top: 40px;
 }
 .question .title h2{
    color: #032922;
+ 
   text-align: center;
 }
 .question-title p {

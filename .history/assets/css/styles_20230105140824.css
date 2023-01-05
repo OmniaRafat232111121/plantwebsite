@@ -567,7 +567,6 @@ margin-top: 40px;
   left: 20%;
 }
 /*==========question========*/
-
 .question {
   background: #e6efeb;
   border-radius: 10px;
@@ -587,6 +586,7 @@ margin-top: 40px;
 }
 .question .title h2{
    color: #032922;
+  font-family: "Great Vibes", cursive;
   text-align: center;
 }
 .question-title p {
@@ -597,13 +597,12 @@ margin-top: 40px;
 .question button{
     font-size: 15px;
     border-radius: 10px;
-  background-color: var(--green);
+  background-color: va
   cursor: pointer;
   color: #fff;
   transition: 0.3s;
-  padding:10px;
 }
-.question button:hover {
+.question-btn:hover {
   transform: rotate(90deg);
 }
 
@@ -618,7 +617,6 @@ margin-top: 40px;
 }
 .question-text p {
   margin-bottom: 0;
-  color:#fff;
 }
 
 /* hide text */
