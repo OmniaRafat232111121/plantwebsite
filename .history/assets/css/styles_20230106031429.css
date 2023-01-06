@@ -618,9 +618,7 @@ column-gap:10px;
   left: 20%;
 }
 @media(max-width:767px){
-  .products-boxes .box{
-    margin-left:30px;
-  }
+  .products-boxes .box
   .product-container{
     margin-right:120px;
     
