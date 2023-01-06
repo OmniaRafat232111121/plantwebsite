@@ -253,9 +253,9 @@ padding: 10px;
 }
 .nav-btns .ri-menu-line{
     position: absolute;
-  top:22px;
+  top:30px;
 color:#000;
-  left:340px;  
+  right:50px; 
 }
 
 

@@ -246,16 +246,16 @@ padding: 10px;
 
 .nav-btns .ri-moon-line{
    position: absolute;
-  top:22px;
-  left:300px; 
+  top:20px;
+  right:-20px; 
 
   
 }
 .nav-btns .ri-menu-line{
     position: absolute;
-  top:22px;
+  top:20px;
 color:#000;
-  left:340px;  
+  right:50px; 
 }
 
 
