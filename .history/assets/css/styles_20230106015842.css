@@ -154,7 +154,7 @@ nav ul li {
   margin-left: 40px;
 }
 nav{
-margin-right: 10px;
+margin-right: 60px;
 }
 nav ul li a{
   color:var(--black);
@@ -203,10 +203,6 @@ color:#000;
  transition: 0.3s;
 }
 @media screen and (max-width: 767px){
-.header{
-position: relative;
-}
-  
 .nav_list{
 display: none;
 }
@@ -247,7 +243,7 @@ padding: 10px;
 .nav-btns .ri-moon-line{
    position: absolute;
   top:20px;
-  right:20px; 
+  right:150px; 
 
   
 }
@@ -255,7 +251,7 @@ padding: 10px;
     position: absolute;
   top:20px;
 color:#000;
-  right:50px; 
+  right:100px; 
 }
 
 
@@ -271,7 +267,7 @@ color:#000;
 display:grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-gap:30px;
-
+margin-top: 70px;
 
 }
 .home-container .left-content{
@@ -355,22 +351,11 @@ content: '';
 .social_icons{
   position: absolute;
   top: 220px;
-  right: -100px;
+  right: -200px;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
  
-}
-.home-container .left-content .home-title{
-  font-size: 18px;
-}
-.home-container .left-content .home-des{
-  font-size: 14px;
-  width:60%;
-}
-.home-container .right-content img{
-  width:60%;
-
 }
 }
 /*========About========*/
