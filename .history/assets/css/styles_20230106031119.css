@@ -775,21 +775,20 @@ outline: none;
   color:#fff;
   
 }
-
+10px
 .left-contact button:hover {
 color: #3e6553;
 
   background-color:#000;
 }
 @media(max-width:767px){
- 
   .contact_content input,
   .contact_content textarea{
-    width:40%;
+    width:60%;
 
   }
   .right-contact .contact-title{
-    font-size:18px;
+    font-size: ;
   }
 }
 /*footer*/

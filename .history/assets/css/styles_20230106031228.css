@@ -782,7 +782,9 @@ color: #3e6553;
   background-color:#000;
 }
 @media(max-width:767px){
- 
+  .contact-container{
+    padding:10px;
+  }
   .contact_content input,
   .contact_content textarea{
     width:40%;

@@ -782,15 +782,12 @@ color: #3e6553;
   background-color:#000;
 }
 @media(max-width:767px){
- 
   .contact_content input,
   .contact_content textarea{
-    width:40%;
+    width:60%;
 
   }
-  .right-contact .contact-title{
-    font-size:18px;
-  }
+  .right-contact
 }
 /*footer*/
 .footer{

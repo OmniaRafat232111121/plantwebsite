@@ -782,7 +782,6 @@ color: #3e6553;
   background-color:#000;
 }
 @media(max-width:767px){
- 
   .contact_content input,
   .contact_content textarea{
     width:40%;
