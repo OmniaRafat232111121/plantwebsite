@@ -427,7 +427,8 @@ color: var(--bold-green);
     font-size: 10px;
     width:100%;
     margin:0 auto;
-
+  
+    
   }
   
   .right-about p{
@@ -539,8 +540,7 @@ background-color: #fff;
   background-color: #3e6553;
   border-radius: 15px;
   height:1100px;
- 
-  margin-right: 10px;
+  margin-left:50px;
 }
 .about-boxes{
   display:grid;
