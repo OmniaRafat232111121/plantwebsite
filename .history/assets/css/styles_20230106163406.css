@@ -487,7 +487,7 @@ margin-top: 40px;
 }
 .about-boxes .box{
 background-color: #fff;
-   padding: 30px;
+   padding: 40px 40px;
    border-radius: 20px;
 
 }
@@ -535,13 +535,6 @@ background-color: #fff;
   border-radius: 15px;
  
 } */
-
-.about-boxes {
-
-   margin-left: -10px;
-   border-radius: 20px;
-
-}
 .steps-container{
   width:100%;
  padding:20px 50px;
@@ -713,7 +706,7 @@ column-gap:10px;
 /*=============== Contact ===============*/
 .contact{
   position:relative;
-  padding:50px 100px;
+  padding:50px 40px;
 }
 .contact-container{
 display:grid;
@@ -792,10 +785,7 @@ color: #3e6553;
   background-color:#000;
 }
 @media(max-width:767px){
- .contact{
-  position:relative;
-  padding:50px 40px;
-}
+ 
   .contact_content input,
   .contact_content textarea{
     width:40%;
@@ -808,7 +798,7 @@ color: #3e6553;
 /*footer*/
 .footer{
   position:relative;
-padding:50px 100px;
+padding:50px 60px;
 
 }
 .footer-container{
@@ -864,11 +854,6 @@ margin-top: 10px;
 }
 
 @media(max-width:767px){
-  .footer{
-  position:relative;
-padding:50px 40px;
-
-}
   .box button{
     display:none;
   }

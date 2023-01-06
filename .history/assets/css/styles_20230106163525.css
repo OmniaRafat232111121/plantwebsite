@@ -487,7 +487,7 @@ margin-top: 40px;
 }
 .about-boxes .box{
 background-color: #fff;
-   padding: 30px;
+   padding: 40px 40px;
    border-radius: 20px;
 
 }
@@ -535,13 +535,6 @@ background-color: #fff;
   border-radius: 15px;
  
 } */
-
-.about-boxes {
-
-   margin-left: -10px;
-   border-radius: 20px;
-
-}
 .steps-container{
   width:100%;
  padding:20px 50px;
@@ -866,7 +859,7 @@ margin-top: 10px;
 @media(max-width:767px){
   .footer{
   position:relative;
-padding:50px 40px;
+padding:50px 0px;
 
 }
   .box button{

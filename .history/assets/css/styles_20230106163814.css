@@ -536,9 +536,9 @@ background-color: #fff;
  
 } */
 
-.about-boxes {
-
-   margin-left: -10px;
+.about-boxes .box{
+background-color: #fff;
+   padding:10px
    border-radius: 20px;
 
 }
