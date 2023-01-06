@@ -617,10 +617,7 @@ column-gap:10px;
 }
 @media(max-width:767px){
   .product-container{
-    margin-right:110px;
-  }
-  .products-content h2 {
-    margin-bottom: 20px;
+    margin-right:50px;
   }
 }
 /*==========question========*/

@@ -615,14 +615,6 @@ column-gap:10px;
   top: 30%;
   left: 20%;
 }
-@media(max-width:767px){
-  .product-container{
-    margin-right:110px;
-  }
-  .products-content h2 {
-    margin-bottom: 20px;
-  }
-}
 /*==========question========*/
 
 .question {
@@ -896,7 +888,7 @@ margin-top: 40px;
 .dark-theme .section-question .question,
 .dark-theme .footer,
 .dark-theme .header,
-
+.dark-theme .products,
 .dark-theme .home,
 .dark-theme .box .product__circle
  {
