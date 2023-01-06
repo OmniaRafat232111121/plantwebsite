@@ -418,18 +418,12 @@ color: var(--bold-green);
 
 }
 @media(max-width:767px){
-  .about-container{
-    padding:10px;
-  }
   .right-about  h2{
     font-size: 10px;
-    width:100%;
-    margin:0 auto;
   
     
   }
   .right-about{
-
    
   }
   .right-about p{

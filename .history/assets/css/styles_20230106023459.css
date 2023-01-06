@@ -418,22 +418,12 @@ color: var(--bold-green);
 
 }
 @media(max-width:767px){
-  .about-container{
-    padding:10px;
-  }
-  .right-about  h2{
+  .right-about.about-title h2{
     font-size: 10px;
-    width:100%;
-    margin:0 auto;
-  
     
   }
   .right-about{
-
-   
-  }
-  .right-about p{
-    font-size: 12px;
+    font-size: 16px;
     padding:10px;
     
   }
@@ -442,7 +432,7 @@ color: var(--bold-green);
   }
   .about-container{
   display:grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 grid-gap:10px;
 
 }
