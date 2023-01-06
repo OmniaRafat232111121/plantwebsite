@@ -245,8 +245,9 @@ justify-content: center;
 text-align: center;
 padding: 10px;
   }
-.nav_list.show-menu li  a:hover{
-  color:#032922;
+
+.show-menu a:hover{
+  color:
 }
 
 .nav-btns .ri-menu-line,

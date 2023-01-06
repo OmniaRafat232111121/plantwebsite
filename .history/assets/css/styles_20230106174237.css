@@ -156,7 +156,7 @@ nav ul li {
   margin-left: 40px;
 }
 nav{
-margin-right: 60px;
+margin-right: 40px;
 }
 nav ul li a{
   color:var(--black);
@@ -166,15 +166,13 @@ nav ul li a{
 }
 
 .nav-btns .ri-moon-line{
-  position: absolute;
+   position: absolute;
   top:30px;
 color:#000;
-  right:50px; 
+  right:20px; 
 }
-.nav-btns .ri-shopping-cart-line{
-  
-
-    position: absolute;
+.nav-btns .ri-moon-line{
+   position: absolute;
   top:30px;
 color:#000;
   right:20px; 
@@ -245,9 +243,7 @@ justify-content: center;
 text-align: center;
 padding: 10px;
   }
-.nav_list.show-menu li  a:hover{
-  color:#032922;
-}
+
 
 .nav-btns .ri-menu-line,
 .nav-btns .ri-moon-line{
@@ -267,15 +263,9 @@ padding: 10px;
     position: absolute;
   top:22px;
 color:#000;
-  left:330px;  
+  left:340px;  
 }
 
-.nav-btns .ri-shopping-cart-line{
-    position: absolute;
-  top:22px;
-color:#000;
-  left:360px;  
-}
 
 }
 

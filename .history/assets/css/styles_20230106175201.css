@@ -245,7 +245,8 @@ justify-content: center;
 text-align: center;
 padding: 10px;
   }
-.nav_list.show-menu li  a:hover{
+
+.show-menu a:hover{
   color:#032922;
 }
 
