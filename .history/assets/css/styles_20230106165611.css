@@ -359,15 +359,12 @@ content: '';
 @media(max-width:767px){
 .social_icons{
   position: absolute;
-  top: 200px;
+  top: 220px;
   right: -50px;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
  
-}
-.home-container .left-content{
-  padding:20px;
 }
 .home-container .left-content .home-title{
   font-size: 18px;

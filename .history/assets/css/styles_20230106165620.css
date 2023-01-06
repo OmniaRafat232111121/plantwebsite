@@ -366,9 +366,6 @@ content: '';
   row-gap: 3.5rem;
  
 }
-.home-container .left-content{
-  padding:20px;
-}
 .home-container .left-content .home-title{
   font-size: 18px;
 }

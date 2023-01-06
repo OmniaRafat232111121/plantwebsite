@@ -265,15 +265,16 @@ color:#000;
 
 /*========Home========*/
 .home{
-  padding: 50px;
+  padding: 0 80px;
   position:relative;
-  height:100vh;
  
 }
 .home-container{
 display:grid;
-grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-gap:30px;
+
+
 }
 
 .home-container .left-content{
@@ -297,12 +298,9 @@ grid-gap:30px;
 .home-container .left-content  i{
   margin-left: 10px;
 }
-.right-content{
-  padding:20px;
-}
 .right-content img{
   max-width: 100%;
-  width:70%;
+  width:85%;
   justify-self: center;
 }
 
@@ -359,15 +357,12 @@ content: '';
 @media(max-width:767px){
 .social_icons{
   position: absolute;
-  top: 200px;
-  right: -50px;
+  top: 220px;
+  right: -100px;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
  
-}
-.home-container .left-content{
-  padding:20px;
 }
 .home-container .left-content .home-title{
   font-size: 18px;
@@ -376,16 +371,8 @@ content: '';
   font-size: 14px;
   width:60%;
 }
-.home-containe{
-  display:flex;
-   align-items: center;
-    justify-content: center;
-}
 .home-container .right-content img{
-  
- text-align: center;
-    width:60%;
- 
+  width:50%;
 
 }
 }

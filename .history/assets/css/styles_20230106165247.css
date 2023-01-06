@@ -265,7 +265,7 @@ color:#000;
 
 /*========Home========*/
 .home{
-  padding: 50px;
+  padding: 0 80px;
   position:relative;
   height:100vh;
  
@@ -359,15 +359,12 @@ content: '';
 @media(max-width:767px){
 .social_icons{
   position: absolute;
-  top: 200px;
-  right: -50px;
+  top: 220px;
+  right: -100px;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
  
-}
-.home-container .left-content{
-  padding:20px;
 }
 .home-container .left-content .home-title{
   font-size: 18px;
@@ -376,16 +373,11 @@ content: '';
   font-size: 14px;
   width:60%;
 }
-.home-containe{
-  display:flex;
-   align-items: center;
-    justify-content: center;
-}
 .home-container .right-content img{
+  width:80%;
+  margin:0 auto;
+  text-align: center;
   
- text-align: center;
-    width:60%;
- 
 
 }
 }
