@@ -546,9 +546,9 @@ background-color: #fff;
  
  }
  .steps-container{
-  width:90%;
+  width:100%;
   text-align: center;
-  
+   background-color: aqua;
 
  }
 

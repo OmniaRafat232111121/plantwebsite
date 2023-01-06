@@ -543,12 +543,11 @@ background-color: #fff;
   display:flex;
   align-items: center;
   justify-content: center;
- 
+  background-color: aqua;
  }
  .steps-container{
-  width:90%;
+  width:100%;
   text-align: center;
-  
 
  }
 

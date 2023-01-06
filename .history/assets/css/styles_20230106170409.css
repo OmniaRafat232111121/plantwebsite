@@ -539,18 +539,12 @@ background-color: #fff;
 }
 
 @media(max-width:767px){
- .steps{
-  display:flex;
-  align-items: center;
-  justify-content: center;
  
- }
  .steps-container{
-  width:90%;
+  width:100%;
   text-align: center;
-  
 
- }
+ 
 
 .about-boxes {
 
@@ -641,7 +635,6 @@ column-gap:10px;
   left: 20%;
 }
 @media(max-width:767px){
-
   .products-boxes .box{
     margin-left:30px;
   }
@@ -652,18 +645,6 @@ column-gap:10px;
   .products-content h2 {
     margin-bottom: 20px;
   }
-   .products{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-   
- }
- .products-container{
-  width:100%;
-  text-align: center;
- 
-
- }
 }
 /*==========question========*/
 

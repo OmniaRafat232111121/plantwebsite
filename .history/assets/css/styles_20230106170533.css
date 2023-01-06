@@ -543,12 +543,10 @@ background-color: #fff;
   display:flex;
   align-items: center;
   justify-content: center;
- 
  }
  .steps-container{
-  width:90%;
+  width:100%;
   text-align: center;
-  
 
  }
 
@@ -656,12 +654,10 @@ column-gap:10px;
   display:flex;
   align-items: center;
   justify-content: center;
-   
  }
- .products-container{
+ .steps-container{
   width:100%;
   text-align: center;
- 
 
  }
 }
