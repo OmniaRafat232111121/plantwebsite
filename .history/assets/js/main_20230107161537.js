@@ -163,7 +163,7 @@ function increaseItem(individualItem, product){
         // Actual Array
         cartItems.forEach(box => {
             if (box.id === product.id) {
-                individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
+                individualItem.querySelector(".product__quantity").innerText = ++ box.quantity;
                 calculateTotal();     
                    
             }

@@ -161,7 +161,7 @@ function increaseItem(individualItem, product){
 
     individualItem.querySelector("[action='increase']").addEventListener('click', () => {
         // Actual Array
-        cartItems.forEach(box => {
+        cartItems.forEach(box=> {
             if (box.id === product.id) {
                 individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
                 calculateTotal();     
@@ -181,3 +181,14 @@ function calculateTotal(){
    totalCost.innerText= total;
     totalCount.innerText = cartItems.length;
 }
+
+function increaseItems(individualItem, product) {
+  individualItem.querySelector("[action='increase']").addEventListener('click', () => {
+    cartItems.forEach(cartItem => {
+      if (cartItem.id === product.id) {
+        individualItem.querySelector('.product__quantity').innerText = ++cartItem.quantity;
+        calculateTotal();
+       }
+     })
+   })
+ }

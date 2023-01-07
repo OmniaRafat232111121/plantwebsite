@@ -111,7 +111,6 @@ addToCartBtn.forEach(function (btn) {
       //console.log(individualItem);
       if (individualItem.querySelectorAll('#product__id').value === product.id) {
         increaseItem(individualItem, product);
-        
       }
      
     })
@@ -161,9 +160,9 @@ function increaseItem(individualItem, product){
 
     individualItem.querySelector("[action='increase']").addEventListener('click', () => {
         // Actual Array
-        cartItems.forEach(box => {
-            if (box.id === product.id) {
-                individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
+        cartItems.forEach(cartItem => {
+            if (cartItem.id === product.id) {
+                individualItem.querySelector(".product__quantity").innerText = ++cartItem.quantity;
                 calculateTotal();     
                    
             }
@@ -181,3 +180,14 @@ function calculateTotal(){
    totalCost.innerText= total;
     totalCount.innerText = cartItems.length;
 }
+
+function increaseItems(individualItem, product) {
+  individualItem.querySelector("[action='increase']").addEventListener('click', () => {
+    cartItems.forEach(cartItem => {
+      if (cartItem.id === product.id) {
+        individualItem.querySelector('.product__quantity').innerText = ++cartItem.quantity;
+        calculateTotal();
+       }
+     })
+   })
+ }

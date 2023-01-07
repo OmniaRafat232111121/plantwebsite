@@ -158,17 +158,22 @@ function addItemToTheDOM(product) {
 }
 
 function increaseItem(individualItem, product){
-
-    individualItem.querySelector("[action='increase']").addEventListener('click', () => {
-        // Actual Array
-        cartItems.forEach(box => {
-            if (box.id === product.id) {
-                individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
-                calculateTotal();     
+  const buttonIncrease = document.querySelector("[action='increase']");
+    // individualItem.querySelector("[action='increase']").addEventListener('click', () => {
+    //     // Actual Array
+    //     cartItems.forEach(box => {
+    //         if (box.id === product.id) {
+    //             individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
+    //             calculateTotal();     
                    
-            }
-        })
-    });
+    //         }
+    //     })
+    
+    
+  buttonIncrease.addEventListener('click', function () {
+      
+    })
+  
 
 }
 

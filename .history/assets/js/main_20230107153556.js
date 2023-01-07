@@ -108,12 +108,11 @@ addToCartBtn.forEach(function (btn) {
     }
        const cartDOMItems = document.querySelectorAll(".box");
     cartDOMItems.forEach(individualItem => {
-      //console.log(individualItem);
-      if (individualItem.querySelectorAll('#product__id').value === product.id) {
-        increaseItem(individualItem, product);
-        
+      if (individualItem.querySelector("#product__id").value ===product.id) {
+        // increrase
+        increaseItems(individualItem, product);
+       
       }
-     
     })
 
   
@@ -127,11 +126,21 @@ addToCartBtn.forEach(function (btn) {
 
      
 });
+function increaseItems(individualItem, product) {
+  individualItem.querySelector("[action='increase']").addEventListener('click', () => {
+    cartItems.forEach(cartItem => {
+      if (cartItem.id === product.id) {
+        individualItem.querySelector('.product__quantity').innerText = ++cartItem.quantity;
+        calculateTotal();
+       }
+     })
+   })
+ }
 
 function addItemToTheDOM(product) {
   cartDOM.insertAdjacentHTML("afterbegin",
   `
-    <div class="box">
+    <div class="">
                  
                  <input type="hidden" name="" id="product__id" value="${product.id}" />
                 <img src="${product.image}" alt="" id="image"/>
@@ -157,20 +166,7 @@ function addItemToTheDOM(product) {
   )
 }
 
-function increaseItem(individualItem, product){
 
-    individualItem.querySelector("[action='increase']").addEventListener('click', () => {
-        // Actual Array
-        cartItems.forEach(box => {
-            if (box.id === product.id) {
-                individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
-                calculateTotal();     
-                   
-            }
-        })
-    });
-
-}
 
 
 function calculateTotal(){
@@ -181,3 +177,14 @@ function calculateTotal(){
    totalCost.innerText= total;
     totalCount.innerText = cartItems.length;
 }
+
+function increaseItems(individualItem, product) {
+  individualItem.querySelector("[action='increase']").addEventListener('click', () => {
+    cartItems.forEach(cartItem => {
+      if (cartItem.id === product.id) {
+        individualItem.querySelector('.product__quantity').innerText = ++cartItem.quantity;
+        calculateTotal();
+       }
+     })
+   })
+ }

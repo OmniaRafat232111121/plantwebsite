@@ -157,19 +157,15 @@ function addItemToTheDOM(product) {
   )
 }
 
-function increaseItem(individualItem, product){
-
-    individualItem.querySelector("[action='increase']").addEventListener('click', () => {
-        // Actual Array
-        cartItems.forEach(box => {
-            if (box.id === product.id) {
-                individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
-                calculateTotal();     
-                   
-            }
-        })
-    });
-
+function increaseItem(individualItem, product) {
+  const buttonIncrease = document.querySelector("[action='increase']");
+  
+    
+  buttonIncrease.addEventListener('click', function () {
+    console.log('djdjdj')
+  })
+  
+}
 }
 
 

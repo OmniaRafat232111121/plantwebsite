@@ -158,7 +158,7 @@ function addItemToTheDOM(product) {
 }
 
 function increaseItem(individualItem, product){
-
+   const button=
     individualItem.querySelector("[action='increase']").addEventListener('click', () => {
         // Actual Array
         cartItems.forEach(box => {

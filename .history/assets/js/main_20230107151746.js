@@ -1,4 +1,6 @@
 
+
+
 let navMenu = document.getElementById('nav_menu');
 let navList = document.getElementById('nav_list');
 let closeButton = document.getElementById('nav_close');
@@ -10,10 +12,10 @@ const scrollUp = document.getElementById('scroll-up');
 const addToCartBtn = document.querySelectorAll(".add-cart");
 const totalCount = document.querySelector("#total__counter");
 const totalCost = document.querySelector(".total__cost");
-
+const cartDOMItems = document.querySelectorAll(".box");
 const darkTheme = 'dark-theme';
 const iconTheme = 'ri-sun-line';
-let cartItems=[];
+let cartItems = [];
 // selected in storage
 const selectedTheme = localStorage.getItem('selected-theme');
 const selectedIcon = localStorage.getItem('selected-icon');
@@ -101,19 +103,16 @@ addToCartBtn.forEach(function (btn) {
 
     if (!isIncart) {
       addItemToTheDOM(product);
-     
+      console.log('nnne')
     } else {
       alert("Product Already in the Cart");
       return;
     }
-       const cartDOMItems = document.querySelectorAll(".box");
+       
     cartDOMItems.forEach(individualItem => {
-      //console.log(individualItem);
-      if (individualItem.querySelectorAll('#product__id').value === product.id) {
-        increaseItem(individualItem, product);
-        
+      if (individualItem.querySelector('#product__id').value === product.id) {
+        increaseItems(individualItem, product);
       }
-     
     })
 
   
@@ -127,11 +126,10 @@ addToCartBtn.forEach(function (btn) {
 
      
 });
-
 function addItemToTheDOM(product) {
   cartDOM.insertAdjacentHTML("afterbegin",
   `
-    <div class="box">
+    <div class="">
                  
                  <input type="hidden" name="" id="product__id" value="${product.id}" />
                 <img src="${product.image}" alt="" id="image"/>
@@ -157,20 +155,7 @@ function addItemToTheDOM(product) {
   )
 }
 
-function increaseItem(individualItem, product){
 
-    individualItem.querySelector("[action='increase']").addEventListener('click', () => {
-        // Actual Array
-        cartItems.forEach(box => {
-            if (box.id === product.id) {
-                individualItem.querySelector(".product__quantity").innerText = ++box.quantity;
-                calculateTotal();     
-                   
-            }
-        })
-    });
-
-}
 
 
 function calculateTotal(){
@@ -181,3 +166,7 @@ function calculateTotal(){
    totalCost.innerText= total;
     totalCount.innerText = cartItems.length;
 }
+
+function increaseItems(individualItem, product) {
+   individualItem.querySelector('[action='incre)
+ }
