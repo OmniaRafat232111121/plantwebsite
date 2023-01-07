@@ -12,7 +12,7 @@ const scrollUp = document.getElementById('scroll-up');
 const addToCartBtn = document.querySelectorAll(".add-cart");
 const totalCount = document.querySelector("#total__counter");
 const totalCost = document.querySelector(".total__cost");
-const cartDOMItems = document.querySelectorAll(".box");
+const cartItemsDom = document.querySelectorAll('.cart_item');
 const darkTheme = 'dark-theme';
 const iconTheme = 'ri-sun-line';
 let cartItems = [];
@@ -108,14 +108,6 @@ addToCartBtn.forEach(function (btn) {
       alert("Product Already in the Cart");
       return;
     }
-        // cartDOMItems.forEach(individualItem => {
-        //     if (individualItem.querySelector("#product__id").value === product.id) {
-        //         // increrase
-        //       console.log('ddjdj')
-        //       increaseItem(individualItem, product);
-              
-        //     }
-        // })
   
     cartItems.push(product);
     // console.log(isIncart);
@@ -124,8 +116,12 @@ addToCartBtn.forEach(function (btn) {
   });
   
 
-
+  cartItemsDom.forEach(item => {
+    if (item.querySelector("#product__id").value === product.id) {
+      increaseItem(item,product)
+    }
      
+})
 });
 function addItemToTheDOM(product) {
   cartDOM.insertAdjacentHTML("afterbegin",
@@ -155,22 +151,6 @@ function addItemToTheDOM(product) {
 
   )
 }
-
-// function increaseItem(individualItem, product){
-
-//     individualItem.querySelector("[action='increase']").addEventListener('click', () => {
-//         // Actual Array
-//         cartItems.forEach(cartItem => {
-//             if (cartItem.id === product.id) {
-//               individualItem.querySelector(".product__quantity").innerText = ++cartItem.quantity;
-//               calculateTotal();    
-             
-//             }
-//         })
-//     });
-
-// }
-
 
 function calculateTotal(){
   let total=0;

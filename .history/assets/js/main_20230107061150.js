@@ -156,20 +156,20 @@ function addItemToTheDOM(product) {
   )
 }
 
-// function increaseItem(individualItem, product){
+function increaseItem(individualItem, product){
 
-//     individualItem.querySelector("[action='increase']").addEventListener('click', () => {
-//         // Actual Array
-//         cartItems.forEach(cartItem => {
-//             if (cartItem.id === product.id) {
-//               individualItem.querySelector(".product__quantity").innerText = ++cartItem.quantity;
-//               calculateTotal();    
+    individualItem.querySelector("[action='increase']").addEventListener('click', () => {
+        // Actual Array
+        cartItems.forEach(cartItem => {
+            if (cartItem.id === product.id) {
+              individualItem.querySelector(".product__quantity").innerText = ++cartItem.quantity;
+              calculateTotal();    
              
-//             }
-//         })
-//     });
+            }
+        })
+    });
 
-// }
+}
 
 
 function calculateTotal(){

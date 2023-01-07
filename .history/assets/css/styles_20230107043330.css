@@ -1124,16 +1124,15 @@ color:#000;
 .add-cart{
   cursor: pointer;
 }
-/* .cart__items.box {
+.cart__items.box {
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 400px;
-   
+    width: 00px;
     border-bottom: 1px dashed #f6b08c;
-} */
+}
 
 .cart__items .box{
   padding:10px;
