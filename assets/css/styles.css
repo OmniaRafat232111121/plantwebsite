@@ -173,11 +173,11 @@ color:#000;
 }
 .nav-btns .ri-shopping-cart-line{
   
-/* 
+
     position: absolute;
-  top:30px;
+  top:10px;
 color:#000;
-  right:20px;  */
+  left:250px; 
 }
 
 
@@ -818,7 +818,11 @@ outline: none;
 .contact_content{
   border-bottom:1px solid rgb(151, 149, 149);
 }
-
+#total__counter{
+  position:relative;
+  top:-10px;
+  left:250px;
+}
 .contact_content textarea{
    width:100%;
    resize: none;
@@ -1093,12 +1097,12 @@ color:#000;
    
     z-index:-1;
     /* color: #fff; */
-} */
+ */
 .total__cost {
    padding:10px; 
     position: relative;
     top: 80%;
-    left: -1%;
+    left: 10px;
     
 }
 
